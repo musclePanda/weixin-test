@@ -1,0 +1,30 @@
+page-tabs{
+  .tabs-md .tab-button[aria-selected=true] .tab-button-icon  {
+      color: #46c01b;
+  }
+  .tabs-md .tab-button[aria-selected=true] .tab-button-text {
+      color: #46c01b;
+  }
+
+  .tabs-ios .tab-button[aria-selected=true] .tab-button-icon  {
+      color: #46c01b;
+  }
+  .tabs-ios .tab-button[aria-selected=true] .tab-button-text {
+      color: #46c01b;
+  }
+  .toolbar-background{
+    background-color: #393a3f;
+   }
+  .bar-button-md{
+    margin-left: 1.6rem;
+  }
+  .bar-buttons-md{
+    margin-right: .6rem;
+  }
+  .bar-button-ios{
+    margin-left: 1.6rem;
+  }
+  .bar-buttons-ios{
+    margin-right: .6rem;
+  }
+}

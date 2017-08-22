@@ -1,5 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      微信
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="search"></ion-icon>
+      </button>
+      <button ion-button icon-only>
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
 <ion-tabs>
-  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>
-  <ion-tab [root]="tab2Root" tabTitle="About" tabIcon="information-circle"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>
+  <ion-tab [root]="tab1Root" tabTitle="微信" tabIcon="ios-chatbubbles"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="通讯录" tabIcon="ios-copy"></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="发现" tabIcon="ios-compass"></ion-tab>
+  <ion-tab [root]="tab4Root" tabTitle="我" tabIcon="ios-contact"></ion-tab>
 </ion-tabs>

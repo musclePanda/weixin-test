@@ -41,7 +41,6 @@ $colors: (
   dark:       #222
 );
 
-
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
@@ -86,3 +85,13 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+// 是ion-navbar ios 和 安卓的背景颜色
+$toolbar-ios-background: black;
+$toolbar-md-background: black;
+// title 的颜色
+$toolbar-ios-title-text-color:#fff;
+$toolbar-md-title-text-color:#fff;
+// title 的大小
+$toolbar-ios-title-font-size:1.8rem;
+$toolbar-md-title-font-size:1.8rem;

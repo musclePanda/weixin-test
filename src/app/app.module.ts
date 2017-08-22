@@ -6,20 +6,27 @@ import { MyApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
+import { MyPage } from '../pages/my/my'
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+// import { Dialoguepage } from '../pages/dialogue/dialogue'
+// import { dialoguepageModule } from '../pages/dialogue/dialogue.module'
 @NgModule({
+  // 声明
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MyPage,
+    // Dialoguepage
   ],
   imports: [
+  // 每个浏览器都要引入这个插件BrowserModule
     BrowserModule,
     IonicModule.forRoot(MyApp)
   ],
@@ -29,7 +36,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MyPage,
+    // Dialoguepage
   ],
   providers: [
     StatusBar,
